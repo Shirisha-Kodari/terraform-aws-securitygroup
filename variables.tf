@@ -22,6 +22,6 @@ variable "environment" {
 }
 
 variable "sg_tags" {
-    type = map(string)
+    type = map(string) #optiona -->empty flower baraces 
     default = {}
 }
